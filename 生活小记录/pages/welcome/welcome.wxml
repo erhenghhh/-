@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="avatar" src="/images/111.jpg"></image>
+    <text class="motto">来了，老弟！~</text>
+    <view catchtap="onTapJump" class="journey-container">
+        <text class="journey">开始记录我的生活</text>
+    </view>
+</view>

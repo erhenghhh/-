@@ -1,0 +1,15 @@
+<!--pages/post/post.wxml-->
+
+<text class="post-title">1、记账本</text>
+<image class="post-image"src="/images/13.png"mode="aspectFill"/>
+<text class="post-cont-content">    本功能可以记录你每一天的支出和收入以及其具体情况，如时间、金额等。每天把一天的收入给记录下来，可以让你更加了解你的生活情况，能让生活更加的充实，能给自己更大的动力去生活...
+</text>
+
+<text class="post-title">2、日目标</text>
+<image class="post-image"src="/images/14.jpg"mode="aspectFill"/>
+<text class="post-cont-content">本功能能让你规划你每一天的目标，让你清楚记录每一个目标是否完成，每天给自己定一个小目标，让自己能够更好的生活下去...
+</text>
+
+
+
+

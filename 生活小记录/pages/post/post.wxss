@@ -1,0 +1,28 @@
+/* pages/post/post.wxss */
+page {
+  width: 100%;
+  height: 100%;
+  background-color: lightcyan;
+}
+text {
+  width: 600rpx;
+  margin-bottom: 100rpx;
+}
+
+.navigator {
+  width: 700rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #f40;
+  color: #fff;
+  margin-bottom: 20rpx;
+}
+image{
+    width:100%;
+    height:600rpx;
+}
+.post-cont-content {
+  font-size:32rpx;
+  color: #4c4b81;
+}

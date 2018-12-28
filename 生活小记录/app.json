@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/index/index",
+    "pages/me/device/device",
+    "pages/post/post"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+    
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "记账",
+        "iconPath": "/images/img_project.png",
+        "selectedIconPath": "/images/img_project_click.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Todo",
+        "iconPath": "/images/todo-o.png",
+        "selectedIconPath": "/images/Todo.png"
+      },
+        {
+          "pagePath": "pages/me/me",
+          "text": "设置",
+          "iconPath": "/images/img_me.png",
+          "selectedIconPath": "/images/img_me_click.png"
+        }
+    ],
+    "borderStyle": "white",
+    "selectedColor": "#4db6ac",
+    "color": "#999"
+  }
+}

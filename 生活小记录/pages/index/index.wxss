@@ -1,0 +1,133 @@
+/**index.wxss**/
+/* .views{
+  background-color: #f8f8f8;
+} */
+
+.phcolor{
+    color: #000000;
+}
+.viewsdark{
+  background-color: #000000;
+}.todo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+}
+.inputform{
+  width: 100%;
+  display: flex;
+  margin-bottom: 10000rpx;
+}
+.input{
+  width: 70%;
+  padding: 10rpx;
+  margin-top: 50rpx;
+  margin-left: 70rpx;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1rpx #000000;
+  color: #000000;
+}
+.btn{
+  box-shadow:inset 0 0 2px #000000 ;
+  border-radius: 4px;
+  height: 70rpx;
+  width: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 60rpx;
+  font-weight: 600;
+  color: rgb(137, 245, 239);
+  margin-top: 50rpx;
+  margin-left: 10rpx;
+}
+.btn-{
+  box-shadow:inset 0 0 2px #000000 ;
+  border-radius: 4px;
+  height: 70rpx;
+  width: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 60rpx;
+  font-weight: 600;
+  color: rgb(255, 0, 0);
+  margin-top: 50rpx;
+  margin-left: 00rpx;
+}
+.todoList{
+  color: #474747;
+  width: 85%;
+  
+  margin: 30rpx auto;
+  border-top: 1rpx solid #000000;
+}
+.todoList .todo-content{
+  position: absolute;
+  left:80rpx;
+  right:80rpx;
+  top: 200rpx;
+  bottom: 150rpx;
+  font-size: 0.9em;
+}
+.content{
+  width: 100%;
+  height:100%;
+}
+.todoList .todo-content .todoLine{
+  display: flex;
+  align-items: center;
+  padding: 6rpx 0;
+  color: #222;
+}
+.clearIcon{
+  position: absolute;
+  right: 0;
+}
+.text{
+  padding-left:10rpx; 
+  width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.textDelete{
+  color:#000000;
+  text-decoration: line-through;
+  padding-left:10rpx; 
+  width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.todo-footer{
+  position: absolute;
+  font-size: 0.8em;
+  padding-top: 5rpx;
+  padding-left: 15rpx;
+  border-top: 2rpx solid #000000;
+  color: #000000;
+  bottom: 0;
+  left:50rpx;
+  right: 50rpx;
+}
+.proverb{
+  text-align: center;
+  color: #000000;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.textindex{
+padding: 5px;
+background-color: #ffffff;
+color: rgb(51, 29, 29);
+}
+.textindexdark{
+padding: 5px;
+
+   color: rgb(51, 29, 29);
+
+  background-color: #708090;
+}

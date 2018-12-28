@@ -1,0 +1,124 @@
+/* pages/me/me.wxss */
+.page {
+  width: 100%;
+  background-color: #fff;
+  font-size: 16px;
+}
+.container {
+    background-color: #efeff4;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.view{
+  width: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category-item{
+  width:100%;
+  
+}
+.detail-item image{height: 40rpx; width: 40rpx;}
+.viewdark{
+  width: 100%;
+  background-color: #708090;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category-item.personal-info {
+    height: 130rpx;
+    display: flex;
+    padding: 20rpx 0;
+}
+.category-item.personal-info .user-avatar {
+    margin: 0 30rpx;
+    width: 130rpx;
+    height: 130rpx;
+    position: relative;
+}
+.category-item.personal-info .user-avatar image {
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    border-radius: 2rpx;
+}
+.category-item.personal-info .user-name {
+    margin-right: 30rpx;
+    flex: 1;
+    padding-top: 10rpx;
+}
+.detail-item{
+    display: flex;
+    margin-left: 30rpx;
+    border-bottom: 1px solid RGBA(217, 217, 217, .4);
+    height:85rpx;
+    align-items: center;
+}
+.detail-item:last-child{
+    border-bottom:none;
+}
+.detail-item image{
+    height: 40rpx;
+    width:40rpx;
+
+}
+.detail-item text{
+    color:#000000;
+    font-size:24rpx;
+    flex:1;
+    margin-left: 30rpx;
+}
+.detail-item .detail-item-btn{
+    width: 50rpx;
+    color: #000000;
+    height: 40rpx;
+    margin-right: 20rpx;
+    text-align: center;
+}
+.detail-item .detail-item-btn::after{
+    display: inline-block;
+    content:'';
+    width: 16rpx;
+    height: 16rpx;
+    color: #000000;
+    margin-top: 8rpx;
+    border:3rpx #000000 solid;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    transform: rotate(-45deg);
+}
+
+.headimage{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.text_f_w_16 {
+  font-size: 16px;
+  color: #000;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 1px;
+}
+.navigator {
+  width: 700rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #f40;
+  color: #fff;
+  margin-bottom: 20rpx;
+}
